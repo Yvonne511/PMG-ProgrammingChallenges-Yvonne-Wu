@@ -1,4 +1,4 @@
-![Python build & test](https://github.com/Yvonne511/PMG-ProgrammingChallenges-Yvonne-Wu/csv-combiner/actions/workflows/build.yaml/badge.svg)
+![Python build & test](https://github.com/Yvonne511/PMG-ProgrammingChallenges-Yvonne-Wu/tree/master/csv-combiner/actions/workflows/build.yaml/badge.svg)
 
 # Solution Documentation
 There are four functions available for the project 
