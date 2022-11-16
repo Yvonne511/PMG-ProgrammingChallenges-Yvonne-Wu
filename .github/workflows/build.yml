@@ -21,7 +21,7 @@ jobs:
           pipenv install
       - name: Turn on 'editable' mode
         run: |
-          pipenv install -e .
+          python3 -m pipenv install -e .
       - name: Test with pytest
         run: |
-          pipenv run python -m pytest
+          python3 -m pipenv run python3 -m pytest
