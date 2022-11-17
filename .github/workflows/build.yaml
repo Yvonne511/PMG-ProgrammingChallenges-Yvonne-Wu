@@ -20,8 +20,8 @@ jobs:
         run: |
           pip3 install --upgrade pip
           pip3 install --user pipenv
-          python3 -m pip install --upgrade pip pandas
-          python3 -m pip install --upgrade pip tabulate
+          pipenv install pandas
+          pipenv install tabulate
           pipenv install pytest
           pipenv install
       - name: Turn on 'editable' mode
