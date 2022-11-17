@@ -6,7 +6,7 @@ jobs:
     timeout-minutes: 5
     strategy:
       matrix:
-        python-version: ["3.7", "3.9", "3.11"]
+        python-version: ["3.8", "3.9", "3.11"]
     defaults:
       run:
         working-directory: csv-combiner
@@ -20,8 +20,8 @@ jobs:
         run: |
           pip3 install --upgrade pip
           pip3 install --user pipenv
-          python -m pip install --upgrade pip pandas
-          python -m pip install --upgrade pip tabulate
+          python3 -m pip install --upgrade pip pandas
+          python3 -m pip install --upgrade pip tabulate
           pipenv install pytest
           pipenv install
       - name: Turn on 'editable' mode
@@ -29,4 +29,4 @@ jobs:
           python3 -m pipenv install -e .
       - name: Test with pytest
         run: |
-          python3 -m pipenv run python3 -m pytest
+          pipenv run python3 -m pytest
