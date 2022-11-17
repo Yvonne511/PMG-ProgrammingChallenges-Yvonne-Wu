@@ -29,7 +29,7 @@ You can also install package to run the progam
 #### Setup the virtual environment
 
 1. Install pipenv with `python3 -m pip install --user pipenv`
-2. Create the virtual environment and install this package `pip install -i https://test.pypi.org/simple/ csv-combiner-solution==1.0.1`
+2. Create the virtual environment and install this package `pip install -i https://test.pypi.org/simple/ csv-combiner-solution==1.0.2`
 3. Activate the environment with `pipenv shell`
 4. Exit the virtual environment with `exit`
 
