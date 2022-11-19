@@ -1,3 +1,5 @@
+![Python CI/CD For CSVCombiner](https://github.com/Yvonne511/PMG-ProgrammingChallenges-Yvonne-Wu/actions/workflows/build.yaml/badge.svg)
+
 # PMG Programming Challenges
 
 A few small programming challenges that let us see how job candidates work.
